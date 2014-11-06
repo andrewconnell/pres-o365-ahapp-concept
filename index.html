@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{SESSION}}</title>
+    <title>This is How I Think Autohosted Apps for Office 365 and SharePoint Should Work</title>
     <meta name="author" content="Andrew Connell">
     <link href="shared/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -26,46 +26,39 @@
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="shared/styles.css">
+    <style>
+      .presentation-body h1, 
+      .presentation-body h2 {color: #DF7D16;}
+      .reveal pre {font-size: 20pt; }
+    </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
 
         <section>
-          <h1>{{SESSION}}</h1>
-          <p><a href="http://www.github.com/andrewconnell/{{REPO}}">github.com / andrewconnell / {{REPO}}</a></p>
+          <h1>This is How I Think Autohosted Apps for Office 365 and SharePoint Should Work</h1>
         </section>
 
         <section>
-          <section data-markdown="shared/bio.md"  
-                   data-separator="^\n\n\n"  
-                   data-vertical="^\n\n">
-          </section>
-          <section data-markdown="shared/training.md"  
-                   data-separator="^\n\n\n"  
-                   data-vertical="^\n\n">
-          </section>
-          <section data-markdown="shared/msftcloudshow.md"  
-                   data-separator="^\n\n\n"  
-                   data-vertical="^\n\n">
-          </section>
-          <section data-markdown="shared/itunity.md"  
-                   data-separator="^\n\n\n"  
-                   data-vertical="^\n\n">
-          </section>
+          <p><img src="shared/AndrewConnell_BW_Circle.png" /></p>
+          <h1>Andrew Connell</h1>
+          <p><a href="http://www.twitter.com/andrewconnell">@andrewconnell</a></p>
+          <p><a href="mailto:me@andrewconnell.com">me@andrewconnell.com</a></p>
         </section>
 
-        <section data-markdown="presentation.md"  
+        <section class="presentation-body"
+                 data-markdown="presentation.md"  
                  data-separator="^\n\n\n"  
                  data-vertical="^\n\n">
         </section>
 
         <section>
           <h1 id="questions-">Questions?</h1>
-          <p><img src="shared/clapping.gif" alt="questions?"></p>
+          <p><img src="shared/clapping.gif" alt="questions?" width="600"></p>
+          <p><a href="http://aconn.me/autohosted-concept">aconn.me / autohosted-concept</a></p>
           <p><a href="http://www.twitter.com/andrewconnell">@andrewconnell</a></p>
-          <p><a href="http://www.andrewconnell.com">www.andrewconnell.com</a></p>
-          <p><a href="http://www.github.com/andrewconnell/{{REPO}}">github.com / andrewconnell / {{REPO}}</a></p>
+          <p><a href="mailto:me@andrewconnell.com">me@andrewconnell.com</a></p>
         </section>
 
       </div>
@@ -78,10 +71,13 @@
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        width: 1366,
+        height: 768,
         controls: true,
         progress: true,
         history: true,
         center: true,
+        fragments: true,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
@@ -94,7 +90,8 @@
         dependencies: [
           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', 
+            condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
