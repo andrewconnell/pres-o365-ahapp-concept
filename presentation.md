@@ -290,8 +290,8 @@ AAD[+H] In Detail
 
 
 
-Deployment Service Endpoint Signature
--------------------------------------
+(3 / 3) Deployment Service Endpoint Signature
+---------------------------------------------
 ````c#
 public interface IAppDeploymentServiceReceiver {
   public AppDeploymentServiceResult DeployApp(AppDeploymentManifest manifest, 
