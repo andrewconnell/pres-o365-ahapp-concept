@@ -18,7 +18,7 @@ Before We Start...
 
 Guy with Fairly Good Track Record
 ---------------------------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-01.jpg)
+![Scott Guthrie]( img/scott-guthrie-01.jpg)
 
 
 
@@ -34,7 +34,7 @@ Before We Start...
 
 
 
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-02.jpg)
+![Scott Guthrie]( img/scott-guthrie-02.jpg)
 
 
 
@@ -54,7 +54,7 @@ Before We Start...
 
 If you ever get this, you're golden
 -----------------------------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-03.jpg)
+![Scott Guthrie]( img/scott-guthrie-03.jpg)
 
 
 
@@ -103,7 +103,7 @@ Autohosted Apps
 
 Right People Happy
 ------------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-04.jpg)
+![Scott Guthrie]( img/scott-guthrie-04.jpg)
 
 
 
@@ -121,7 +121,7 @@ But Wait
 
 Wait... What?
 -------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-05.jpg)
+![Scott Guthrie]( img/scott-guthrie-05.jpg)
 
 
 
@@ -138,7 +138,7 @@ Autohosted Apps
 
 Disappointment
 ==============
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-06.jpg)
+![Scott Guthrie]( img/scott-guthrie-06.jpg)
 
 
 
@@ -202,13 +202,13 @@ Fixes Autohosted Shortcomings
 
 He Likes It
 -----------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-07.jpg)
+![Scott Guthrie]( img/scott-guthrie-07.jpg)
 
 
 
 Process Flow Overview
 =====================
-![](sp16-my-autohosted-apps-concept/img/process-flow-overview.png)
+![]( img/process-flow-overview.png)
 
 (1) HTTPS POST that includes deployment data (*explained later*)
 
@@ -339,7 +339,7 @@ This could Sell more Office 365!
 
 Makes him Happy!
 ----------------
-![Arpan Shah](sp16-my-autohosted-apps-concept/img/arpan-shah.jpg)
+![Arpan Shah]( img/arpan-shah.jpg)
 
 
 
@@ -350,16 +350,16 @@ This could Sell more Microsoft Azure!
 
 Makes him Happy!
 ----------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-09.jpg)
+![Scott Guthrie]( img/scott-guthrie-09.jpg)
 
 
 
 This Could Be Big!
 ==================
-![Satya Nadella](sp16-my-autohosted-apps-concept/img/satya-nadella.jpg)
+![Satya Nadella]( img/satya-nadella.jpg)
 
 
 
 And Now I've Gone Too Far
 -------------------------
-![Scott Guthrie](sp16-my-autohosted-apps-concept/img/scott-guthrie-10.jpg)
+![Scott Guthrie]( img/scott-guthrie-10.jpg)
