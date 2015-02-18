@@ -241,3 +241,5 @@ Wrapping It Up
 - puts control in the hands of the app developer
 - empowers customer to pick their hosting deployment
 - enables Microsoft to create an Azure deployment story
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-o365-ahapp-concept/presentation)](https://github.com/igrigorik/ga-beacon)
